@@ -2,10 +2,10 @@
 
 
 
-[ ] Inder you just did it
+[*] THIS IS FINAL
 
-[ ] This a Milestone test
+[ ] MENU ITEM EXIST
 
-[ ] Study SOC analyst role
+[ ] REFRESH WORKS
 
 [ ] UPdateD Resumd
