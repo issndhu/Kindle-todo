@@ -9,27 +9,35 @@ on:
 jobs:
   render:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repo
+      # Step 1: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          persist-credentials: true  # allows the workflow to push PNG
+          persist-credentials: true  # allows commit with GITHUB_TOKEN
+          fetch-depth: 0            # required for pushing commits
 
+      # Step 2: Set up Python
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
-      - name: Install dependencies
+      # Step 3: Install dependencies
+      - name: Install Pillow
         run: pip install pillow
 
+      # Step 4: Render PNG
       - name: Render PNG
         run: python render.py
 
-      - name: Commit and push PNG
+      # Step 5: Commit and push PNG
+      - name: Commit and push todo.png
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add todo.png
+          # Commit only if PNG changed
           git diff --cached --quiet || git commit -m "Auto-update todo.png"
           git push
