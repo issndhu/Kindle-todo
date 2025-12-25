@@ -6,6 +6,6 @@
 
 [*] MENU ITEM EXIST
 
-[ ] REFRESH WORKS
+[*] REFRESH WORKS
 
 [ ] UPdateD Resumd
