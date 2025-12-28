@@ -6,4 +6,6 @@
   -> Call Lawyer 
 
 [ ] Study CCNA
-
+  -> CSMA/CD
+  -> Type of Service
+     IPV4 Header
