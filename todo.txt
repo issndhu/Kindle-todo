@@ -2,9 +2,9 @@
 
 
 
-[ ] Apply for Work Permit
-  -> Call Lawyer 
-
+[*] Apply for Work Permit
+  -> APPLIED MY SELF
+  -> Give 155$ to AVnt
 [ ] Study CCNA
   -> CSMA/CD
   -> Type of Service
