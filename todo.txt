@@ -1,10 +1,8 @@
 
-
-
-
-[*] Apply for Work Permit
-  -> APPLIED MY SELF
-  -> Give 155$ to AVnt
+[ ] Find out about
+  -> Soc Analyst
+  -> Cloud Computing
+  -> Req. for Admsn
 [ ] Study CCNA
   -> CSMA/CD
   -> Type of Service
