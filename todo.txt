@@ -4,6 +4,5 @@
   -> Cloud Computing
   -> Req. for Admsn
 [ ] Study CCNA
-  -> CSMA/CD
-  -> Type of Service
-     IPV4 Header
+  -> FLASHCARDS
+  
