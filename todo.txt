@@ -1,8 +1,11 @@
 
+
+[ ] Study CCNA
+  -> FLASHCARDS
+  -> SubNetting
+     practice
+
 [ ] Find out about
   -> Soc Analyst
   -> Cloud Computing
   -> Req. for Admsn
-[ ] Study CCNA
-  -> FLASHCARDS
-  
