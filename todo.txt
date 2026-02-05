@@ -1,8 +1,7 @@
 
 
- FOR Document Request
+ FOR TODAY
 
-[ ] Print form with
-    visible address.
-[ ] Sign Both forms
-[ ] Combine a pdf form
+[ ] Practice VLSM
+[ ] Continue ccna
+
